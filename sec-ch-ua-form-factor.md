@@ -38,25 +38,9 @@ using the
 [`Critical-CH`](https://datatracker.ietf.org/doc/html/draft-davidben-http-client-hint-reliability#name-the-critical-ch-response-he)
 response header.
 
-## Dimensions
-
-The information required by a site falls into three categories:
-
- * Output - how does the user-agent present information to the user?
- * Interaction - how does the user interact with the user-agent?
- * Attention - what level of attention can be expected from the user?
-
-Output may distinguish XR from screen-based presentations, or identify
-limited-capability displays such as eInk.
-
-Interaction may differentiate keyboard/mouse input from gestural or touch input.
-
-Attention may indicate that a user's attention is focused elsewhere, such as in
-an automotive setting.
-
 ## Format
 
-The format of the header and its allowed values remain to be determined.
+The content and format of the header and its allowed values remain to be determined.
 
 # References
 
