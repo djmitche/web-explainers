@@ -44,5 +44,7 @@ The content and format of the hint and its allowed values remain to be determine
 
 # References
 
-* https://github.com/WICG/ua-client-hints
-* https://github.com/WICG/ua-client-hints/issues/344
+* https://github.com/WICG/ua-client-hints - client hints spec
+* https://github.com/WICG/ua-client-hints/issues/344 - discussion of the form of
+  the hint
+* https://chromestatus.com/feature/5162545698045952 - chromestatus item
