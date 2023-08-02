@@ -6,7 +6,7 @@ novel user-agent form-factors such as cars, televisions, and virtual reality
 introduce new opportunities for site customization.
 
 Historically, sites have derived the form-factor of a user-agent through some
-combination of the user-agent string, the `Sec-CH-UA-Mobile` header, and screen
+combination of the user-agent string, the `Sec-CH-UA-Mobile` hint, and screen
 size. The signal from these sources is unclear, and incorrect derivations lead
 to poor user experience, such as a desktop site designed for mouse and keyboard
 interaction appearing on a television.
@@ -24,7 +24,7 @@ desired by the user.
 
 [Client Hints](https://github.com/WICG/ua-client-hints) support providing sites
 with clear signals about client characteristics in a privacy-preserving fashion.
-We propose a new header,
+We propose a new hint,
 [`Sec-CH-UA-Form-Factor`](https://wicg.github.io/ua-client-hints/#sec-ch-ua-form-factor),
 to include information about the device's form factor.
 
@@ -40,7 +40,7 @@ response header.
 
 ## Format
 
-The content and format of the header and its allowed values remain to be determined.
+The content and format of the hint and its allowed values remain to be determined.
 
 # References
 
