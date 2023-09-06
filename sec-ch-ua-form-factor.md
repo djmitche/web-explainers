@@ -40,7 +40,9 @@ response header.
 
 ## Format
 
-The content and format of the hint and its allowed values remain to be determined.
+The header is an `sf-list`, which includes all applicable form-factor values.
+The spec includes non-normative descriptions of the allowed values and outlines
+circumstances where new values might be added.
 
 # References
 
