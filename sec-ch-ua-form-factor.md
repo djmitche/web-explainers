@@ -42,6 +42,12 @@ response header.
 
 The content and format of the header and its allowed values remain to be determined.
 
+# Security Considerations
+
+The form-factor hint provides information that is already available to sites
+via the `user-agent` header and thus exposes no new information about the
+client.
+
 # References
 
 * https://github.com/WICG/ua-client-hints
