@@ -44,6 +44,12 @@ The header is an `sf-list`, which includes all applicable form-factor values.
 The spec includes non-normative descriptions of the allowed values and outlines
 circumstances where new values might be added.
 
+# Security Considerations
+
+The form-factor hint provides information that is already available to sites
+via the `user-agent` header and thus exposes no new information about the
+client.
+
 # References
 
 * https://github.com/WICG/ua-client-hints - client hints spec
