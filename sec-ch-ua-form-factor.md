@@ -54,8 +54,8 @@ client.
 
 The form-factor hint supports the privacy goals of [Client
 Hints](https://github.com/WICG/ua-client-hints), reducing the entropy exposed
-to the web. In particular, as a high-entropy hint, form-factor must be
-requested by a site, and [Client Hints § 5.4 Access
+to the web by default. In particular, as a high-entropy hint, form-factor must
+be requested by a site, and [Client Hints § 5.4 Access
 Restrictions](https://wicg.github.io/ua-client-hints/#access) directs user
 agents to "exercise judgement" regarding granting such requests.
 
